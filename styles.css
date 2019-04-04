@@ -3,10 +3,10 @@ body {
     margin: 0 auto;
     max-width: 600px;
     background: #232323;
-    background-image: url("https://as2.ftcdn.net/jpg/02/55/47/15/500_F_255471506_wc80tc21ywIDCMopFs009vC0N7IXvjyh.jpg");
+    background-image: url("https://github.com/gaebar/js-test/blob/master/img/background.jpeg?raw=true");
     background-size: cover;
     background-position: 50%;
-    color: maroon;
+    color: #2f4506;
   }
   body>div{
     display: block;
