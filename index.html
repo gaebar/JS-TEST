@@ -1,15 +1,17 @@
 <!DOCTYPE html>
+
 <head>
   <title>Gaetano Barreca's Books</title>
-  <link rel="shortcut icon" href="https://github.com/gaebar/js-test/blob/master/img/favicon.png?raw=true" type="image/x-icon">
+  <link rel="shortcut icon" href="https://github.com/gaebar/js-test/blob/master/img/favicon.png?raw=true"
+    type="image/x-icon">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset=utf-8>
 
- <link rel="stylesheet" href="styles.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 
 </head>
 
@@ -17,37 +19,36 @@
   <div>
     <h1>The Italian Book-web Shop</h1>
     <h2>Choose your next story!</h2>
-    <div class="first">
-      <p>La Tagliatrice di Vermi e altri racconti<span class="price">£10.99</span><br />
-      <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
-    </div>
 
-    <div class="second">
+    <article class="first">
+      <p>La Tagliatrice di Vermi e altri racconti<span class="price">£10.99</span><br />
+        <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring
+          onion summer purslane asparagus lentil. </small></p>
+    </article>
+
+    <article class="second">
       <p>After the funeral: November 1975<span class="price">£12.99</span><br />
-      <small>1975, Bari. Luigi has just returned from Rome to spend some time in the family and
-        rejoice in the life of the neighbourhood and old friends who know little about the plots 
-        and attacks on the Republic that take place in the capital. Between power lobbies and 
-        diverted intelligence, in his graduation thesis, Luigi follows the same investigations 
-        as Pierpaolo Pasolini, on oil, and the violent murder of the writer brings him home. 
+        <small>1975, Bari. Luigi has just returned from Rome to spend some time in the family and
+          rejoice in the life of the neighbourhood and old friends who know little about the plots
+          and attacks on the Republic that take place in the capital. Between power lobbies and
+          diverted intelligence, in his graduation thesis, Luigi follows the same investigations
+          as Pierpaolo Pasolini, on oil, and the violent murder of the writer brings him home.
         </small></p>
-    </div>
-      
-    <div class="third">
+    </article>
+
+    <article class="third">
       <p>Inquietudini di Cera<span class="price">£10.99</span><br />
-      <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
-    </div>
+        <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy
+          canes.</small></p>
+    </article>
+
     <footer>
       <a href="https://www.linkedin.com/in/gaetanobarreca/" target="_blank">Linkedin</a> |
       <a href="https://github.com/gaebar" target="_blank">Github</a> |
       <a href="https://www.instagram.com/di_ruderi_e_di_scrittura/" target="_blank">Instagram</a>
       <p class="footer-love">Made with <em>&hearts;</em></p>
     </footer>
-    </div>
-
-<script>
-  $('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
-</script>
-
+    
+  </div>
+  <script src="scripts/script.js"></script>
 </body>
