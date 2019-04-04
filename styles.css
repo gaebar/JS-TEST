@@ -3,29 +3,30 @@ body {
     margin: 0 auto;
     max-width: 600px;
     background: #232323;
-    background-image: url("https://cdn.wallpapersafari.com/56/18/bQC02R.jpghttps://github.com/gaebar/js-test/blob/master/img/background.jpeg?raw=true");
+    background-image: url("https://as2.ftcdn.net/jpg/02/55/47/15/500_F_255471506_wc80tc21ywIDCMopFs009vC0N7IXvjyh.jpg");
+    background-size: cover;
+    background-position: 50%;
+    color: maroon;
   }
   div {
     height: 200px;
     background-size: cover;
     position: relative;
     margin: 40px 0 0 0;
-    border-radius: 12px;
+    border-radius: 10px;
   }
   h1 {
     font-family: 'Comfortaa', cursive;
     text-align: center;
-    font-size: 45px;
-    color: #aaaaaa;
+    font-size: 40px;
     margin: 60px 0 0 0;
   }
   h2 {
     font-family: 'Comfortaa', cursive;
     text-align: center;
-    color: #bbbbbb;
     margin: 0px 0 70px 0;
     padding-top: 20px;
-    font-size: 15px;
+    font-size: 20px;
   }
   p {
     color: rgba(255,255,255,1);
@@ -50,7 +51,7 @@ body {
   }
   
   .show-description p {
-    height: 150px;
+    height: 180px;
   }
   
   .show-description small {
@@ -100,15 +101,15 @@ body {
     padding-top: 24px;
     background-color: #ffffff7a;
   }
-  a {
-    text-decoration:none;
-    font-weight:bold;
-    color: 0px 10px 0px 10px;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  .footer-love em{
-    font-style: normal;
-    color: #840f0f;
-  }
+    a {
+      text-decoration:none;
+      font-weight: bold;
+      color: 0px 10px 0px 10px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer-love em{
+      font-style: normal;
+      color: #840f0f;
+    }
