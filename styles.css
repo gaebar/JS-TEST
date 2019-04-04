@@ -1,9 +1,9 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Karla', sans-serif;
     margin: 0 auto;
     max-width: 600px;
     background: #232323;
-    background-image: url("https://cdn.wallpapersafari.com/56/18/bQC02R.jpg");
+    background-image: url("https://cdn.wallpapersafari.com/56/18/bQC02R.jpghttps://github.com/gaebar/js-test/blob/master/img/background.jpeg?raw=true");
   }
   div {
     height: 200px;
@@ -20,9 +20,12 @@ body {
     margin: 60px 0 0 0;
   }
   h2 {
+    font-family: 'Comfortaa', cursive;
     text-align: center;
     color: #bbbbbb;
     margin: 0px 0 70px 0;
+    padding-top: 20px;
+    font-size: 15px;
   }
   p {
     color: rgba(255,255,255,1);
@@ -60,7 +63,7 @@ body {
   .second{
     background-image: url("https://github.com/gaebar/js-test/blob/master/img/cover2.jpg?raw=true");
   }
-  .dessert{
+  .third{
     background-image: url("https://github.com/gaebar/js-test/blob/master/img/cover3.png?raw=true");
   }
   .price {
