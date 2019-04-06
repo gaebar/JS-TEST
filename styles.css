@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Karla', sans-serif;
   margin: 0 auto;
@@ -16,6 +20,10 @@ body>div {
   margin: 0 auto;
 }
 
+header {
+  padding-top: 30px;
+}
+
 article {
   height: 200px;
   background-size: cover;
@@ -28,15 +36,15 @@ h1 {
   font-family: 'Karla', sans-serif;
   text-align: center;
   font-size: 40px;
-  margin: 60px 0 0 0;
+  padding: 0px 0 0 0;
+  margin: 0;
 }
 
 h2 {
   font-family: 'Comfortaa', cursive;
   text-align: center;
-  margin: 0px 0 70px 0;
-  padding-top: 20px;
   font-size: 20px;
+  margin: 0;
 }
 
 article p {
@@ -49,7 +57,7 @@ article p {
   */
   /*
   Checking via the Chrome inpsector, I have noticed an error in the CSS panel, therefore 
-  I have replaced the rule with the rule found at 
+  I have replaced the gradient with the version I have found at 
   https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
   no need for compatibility with IE9 and below
    */
@@ -59,36 +67,28 @@ article p {
   position: absolute;
   bottom: 0;
   margin: 0;
-  height: 16px;
-  transition: height .5s;
+  height: 37px;
+  transition: height .5s ease-in-out;
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
   line-height: 17px;
-  width: 385px;
+  width: 406px;
   cursor: pointer;
   font-weight: bold;
-}
-
-@media only screen and (max-width: 700px) {
-  article p {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    height: 36px;
-    font-size: 15px;
-  }
+  box-sizing: border-box;
 }
 
 small {
   opacity: 0;
   display: block;
   margin-top: 5px;
-  padding-right: 50px;
+  padding-right: 17px;
   font-weight: normal
 }
 
 .show-description p {
-  height: 180px;
+  height: 100%;
+  border-top-left-radius: 10px;
 }
 
 .show-description small {
@@ -111,36 +111,16 @@ small {
   float: right;
 }
 
-@media (max-width: 500px) {
-  h1 {
-    font-size: 21px;
-    margin-top: 20px;
-    line-height: 40px;
-  }
-  h2 {
-    font-size: 17px;
-    margin: 0;
-  }
- 
-  p {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .show-description small {
-    font-size: 15px;
-    padding-right: 10px;
-  }
-}
-
 footer {
   text-align: center;
   padding: 0px;
   bottom: 0px;
   width: 100%;
   padding-bottom: 10px;
-  border-top: 3px solid #00008b0b;
-  padding-top: 24px;
+  padding-top: 30px;
   background-color: #ffffff7a;
+  margin-top: 39px;
+  border-radius: 10px;
 }
 
 a {
@@ -153,7 +133,54 @@ a:hover {
   text-decoration: underline;
 }
 
+.footer-love {
+  margin-top: 5px;
+}
+
 .footer-love em {
   font-style: normal;
   color: #840f0f;
+}
+
+@media only screen and (max-width: 700px) {
+
+  article p {
+    width: 100%;
+    padding: 10px;
+    height: 36px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    padding-top: 0px;
+  }
+  h1 {
+    font-size: 26px;
+    margin-top: 0px;
+    line-height: 38px;
+    padding-top: 29px;
+    padding-bottom: 8px;
+  }
+  h2 {
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: 27px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .show-description small {
+    font-size: 15px;
+    padding-right: 10px;
+  }
+  article {
+    height: 250px;
+    margin-top: 20px;
+  }
+  footer {
+    margin-bottom: 15px;
+  }
 }
