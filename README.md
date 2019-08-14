@@ -1,4 +1,3 @@
-# JS-TEST
-PROJECT 3: BUILD A SMALL BUSINESS WEBSITE - GA
+# GA Excercise - Simple Small Business Website
 
 https://gaebar.github.io/small-business-website/
